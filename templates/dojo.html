@@ -2,11 +2,16 @@
 <html lang=en>
   <head>
     <meta charset="utf-8">
-    <title>Landing Page</title>
+    <title>DOJO</title>
     <link rel="normalizesheet" href="./static/normalize.css">
     <link rel="stylesheet" href="./static/skeleton.css">
   </head>
   <body>
-    <h1>Hello, and Welcome to the Landing Page!</h1>
+    <form action="/dojo/new" method="POST">
+      <input type="text" name="name">
+      <input type="text" name="hobby">
+      <input type=submit>
+    </form>
+
   </body>
 </html>
